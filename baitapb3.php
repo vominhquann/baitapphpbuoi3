@@ -1,17 +1,6 @@
 <?php
-//4
-echo "bai4<br>";
-function checkWordInString($string, $word) {
-    if (strpos($string, $word) !== false) {
-        echo "Chuỗi \"$string\" chứa từ \"$word\".";
-    } else {
-        echo "Chuỗi \"$string\" không chứa từ \"$word\".";
-    }
-}
-checkWordInString("võ minh quân đẹp trai.", "đẹp trai");
-
 //5
-echo "<br><br>bai5 <br>";
+echo "bai5 <br>";
 $array = array(4, 12, 5, 8, 2, 10, 3);
 
 $min = min($array);
